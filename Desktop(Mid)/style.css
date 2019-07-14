@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	padding:0;
+	outline:0;
+	
+}
+.input-section{
+	width:70%;
+	margin:50px auto;
+	border:	1px solid green;
+	height:500px;
+}
+.form-part{
+	width:60%;
+	margin:0 auto;
+	padding:20px 0;
+}
+
+.form-part label{
+	display:block;
+	margin-bottom:15px;
+}
+.form-part span{
+	width:220px;
+	float:left;
+	font-size:16px;
+}
+.groupradio{
+	float:right;
+	margin-right:165px;
+	overflow:hidden;
+}
+.form-part label[for="student"]{
+	margin-top:80px;
+}
+.form-part label[for="file"]{
+	display:none;
+}
+.form-part input[type="text"], input[type="number"],.form-part select{
+	width:250px;
+	padding:8px 5px;
+	border-radius:2px;
+	border:1px solid #999;
+	font-size:18px;
+
+}
+.form-part select{
+	width: 263px;
+    border-radius: 2px;
+}
+.buttongroup {
+	float:right;
+	margin-top:20px;
+	margin-right:50px;
+}
+.buttongroup button{
+	text-align:center;
+	padding:12px 20px;
+	font-size:16px;
+	color:#ffffff;
+	background:green;
+	border:1px solid green;
+	cursor:pointer;
+	margin-right:5px;
+}
+.buttongroup button:hover{
+	background:#ffffff;
+	color:#999999;
+	
+}
+#ShowResult{
+	margin-top:120px;
+	text-align:center;
+	font-weight:bold;
+	font-size:22px;
+}
+#nametext, #quantitytext, #fabricstext, #delivarytext{
+	text-align:center;
+}
+.tableclass{
+	width:60%;
+	margin:50px auto;
+}
+.tableclass table{
+	border:1px solid green;
+	
+}
+.tableclass table tr{}
+.tableclass table th{
+	padding:5px 10px;
+	text-align:left;
+}
+.tableclass table td{}
+.{}
+.{}
+.{}
+.{}

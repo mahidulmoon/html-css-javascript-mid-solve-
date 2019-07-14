@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head> 
+	<title>Price Calculation </title>
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	
+</head>
+<body>
+
+	<section class="input-section"> 
+		<div class="form-part">
+			<form>
+				<p id="nametext"> </p>
+				<label for="namebox"> <span>Name</span> <input type="text" id="namebox"/></label>
+				
+				<p id="quantitytext"> </p>
+				<label for="quantitybox"> <span>Quantity</span> <input type="number" id="quantitybox"/></label>
+				
+				<p id="fabricstext"> </p>
+				<label for=""> <span>Type of Fabrics</span><select id="fabrics">
+					<option value="90"> Cotton </option>
+					<option value="100"> Linen </option>
+					<option value="110"> Jersy </option>
+				</select>
+				</label>
+				
+				
+				<p id="delivarytext"> </p>
+				
+				<span> Do you want home delivary? </span> 
+				<label for="inside"><input type="radio" id="inside"name="delivarytype" value="50"/> Yes(Inside Dhaka 50tk) </label>
+				<div class="groupradio"><label for="outside"><input type="radio" id="outside"name="delivarytype" value="100"/> Yes(Outside Dhaka 100tk) </label>
+				<label for="no-delivary"><input type="radio" id="no-delivary"name="delivarytype" value="0"/>No </label> </div>
+				
+				
+				<label for="student">
+					<span> Are you a student? </span>
+					<input type="checkbox" id="student" onclick="UploadId()"/> Yes
+				</label>
+				
+				<label for="file" id="fileupload"> <span>Please Upload your Id</span> <input type="file" id="file"/></label>
+				
+			</form>
+			<div class="buttongroup">
+				<button onclick="CalculationPrice()"> Calculation Price </button>
+				
+				<button onclick="PlaceOrder()"> Place Order </button>
+				
+			</div>
+			<div id="ShowResult"></div>
+		</div>
+		
+	</section>
+	<div class ="tableclass">
+		<table border="1">
+			<tr>
+				<th> Name </th>
+				<th> Quantity </th>
+				<th> Types Of Fabrics </th>
+				<th> Delivary </th>
+				<th> Student </th>
+				<th> Total Amout </th>
+			</tr>
+		</table>
+	</div>
+	
+		<script src="js/script.js" > </script>
+</body>
+</html>
